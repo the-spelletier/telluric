@@ -1,5 +1,9 @@
-const locationREST = require('./location');
+const campaignREST = require('./campaign');
+const userREST = require('./user');
+const powerREST = require('./power');
 
 module.exports = {
-    locationREST
+    campaignREST,
+    userREST,
+    powerREST
 }
